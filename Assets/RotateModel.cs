@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class ViewModel : MonoBehaviour
 {
     public float speed = 10f;
+    public float scale;
     public GameObject obj;
 
     public void Slider_Change(float newSpeed)
