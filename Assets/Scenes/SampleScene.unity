@@ -437,6 +437,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8717048028291336065, guid: c3671820ff2a0e449ab9a2885f14c104, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d67a9ffed618f049ab2430889f9ecea, type: 2}
+    - target: {fileID: 8717048028291336065, guid: c3671820ff2a0e449ab9a2885f14c104, type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 6d67a9ffed618f049ab2430889f9ecea, type: 2}
@@ -998,6 +1002,7 @@ MonoBehaviour:
   speed: 0
   obj: {fileID: 1961719828}
   obj2: {fileID: 108854797}
+  curr: {fileID: 0}
   z: 1
   x: 1
   y: 0.09
@@ -1295,23 +1300,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cdec411e71ee7a4f82a2969e32f9e5a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.026002433
+      value: 0.013015438
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cdec411e71ee7a4f82a2969e32f9e5a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7055268
+      value: 0.70705867
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cdec411e71ee7a4f82a2969e32f9e5a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.04724541
+      value: -0.008255977
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cdec411e71ee7a4f82a2969e32f9e5a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7066284
+      value: -0.7069869
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cdec411e71ee7a4f82a2969e32f9e5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5.938
+      value: 0.386
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cdec411e71ee7a4f82a2969e32f9e5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
