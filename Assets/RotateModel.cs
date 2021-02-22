@@ -37,14 +37,23 @@ public class RotateModel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //curr.transform.Rotate(0, speed * Time.deltaTime, 0);
-        //curr.transform.localScale = new Vector3(x, y, z);
-        if (Input.GetKeyDown(KeyCode.S))
+
+        if (Input.GetKeyDown(KeyCode.D))
         {
             obj.SetActive(false);
             y = 1;
             obj2.SetActive(true);
             curr = obj2;
+        }
+        curr.transform.Rotate(0, speed * Time.deltaTime, 0);
+        curr.transform.localScale = new Vector3(x, y, z);
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            obj2.SetActive(false);
+            y = .09f;
+            obj.SetActive(true);
+            curr = obj;
         }
         curr.transform.Rotate(0, speed * Time.deltaTime, 0);
         curr.transform.localScale = new Vector3(x, y, z);
